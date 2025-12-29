@@ -1,7 +1,7 @@
-// === Botão de download ===
+
 function baixarCV() {
   const link = document.createElement("a");
-  link.href = "../Arquivos/Curriculo Victor_.pdf"; // ajuste o caminho se necessário
+  link.href = "../Arquivos/Curriculo Victor_.pdf"; 
   link.download = "Curriculo_VictorHenrique.pdf";
   link.click();
 }

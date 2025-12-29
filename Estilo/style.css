@@ -35,9 +35,9 @@
     z-index: -1;
     pointer-events: none;
     opacity: 0;
-    /* começa invisível */
+
     transition: opacity 1.5s ease;
-    /* fade suave */
+
 }
 
 .spline-bg.mostrar {
@@ -92,8 +92,8 @@ html {
 
 
 
-.secao + .secao {
-  border: none; 
+.secao+.secao {
+    border: none;
 }
 
 
@@ -197,20 +197,20 @@ p {
 }
 
 .card img {
-  width: 100%;           
-  height: auto;          
-  object-fit: cover;     
-  border-radius: 8px;    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    
+
 }
 
 .card:hover h3,
 .card:hover p {
-  color: var(--color4);
+    color: var(--color4);
 }
 
 
@@ -218,7 +218,7 @@ p {
     margin-bottom: 10px;
 }
 
-.card h3:hover{
+.card h3:hover {
     color: var(--color4);
 }
 
@@ -244,69 +244,71 @@ p {
 
 /*habilidades*/
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .skill {
-  display: flex;
-  flex-direction: column;  /* ícone em cima, nome embaixo */
-  align-items: center;     /* centraliza horizontalmente */
-  justify-content: center;
-  width: 100px;
-  text-align: center;
-  transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    /* ícone em cima, nome embaixo */
+    align-items: center;
+    /* centraliza horizontalmente */
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .skill img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 8px;
-  transition: transform 0.3s ease;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 8px;
+    transition: transform 0.3s ease;
 }
 
 .skill p {
-  font-weight: 600;
-  color: #fcfcfc;
-  margin: 0;
-  text-align: center;
-  transition: color 0.3s ease;
+    font-weight: 600;
+    color: #fcfcfc;
+    margin: 0;
+    text-align: center;
+    transition: color 0.3s ease;
 }
 
-/* === Efeito hover suave === */
+
 .skill:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .skill:hover img {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .skill:hover p {
-  color: var(--color4); /* pode ser o dourado ou roxo */
+    color: var(--color4);
 }
 
 
-#softskills{
+#softskills {
     text-align: left;
     font-size: 16px;
     text-decoration: none;
     margin-bottom: 10px;
 }
 
-#softskills ul{
+#softskills ul {
     list-style: none;
 }
 
-#tecnologias{
+#tecnologias {
     margin-bottom: 50px;
 }
 
-#contato h2{
+#contato h2 {
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -316,42 +318,42 @@ p {
 
 
 .menu-links {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-links li a {
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  gap: 8px; 
-  color: #fcfcfc;
-  font-weight: 500;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 8px;
+    color: #fcfcfc;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
 }
 
 .menu-links li a i {
-  font-size: 25px;
-  transition: transform 0.3s ease, color 0.3s ease;
+    font-size: 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 
 .menu-links li a:hover {
-  color: var(--color4); 
+    color: var(--color4);
 }
 
 .menu-links li a:hover i {
-  transform: scale(1.2);
-  color: var(--color4);
+    transform: scale(1.2);
+    color: var(--color4);
 }
 
-.legal{
+.legal {
     margin: auto;
     text-align: center;
 
@@ -388,7 +390,7 @@ p {
     background: #fff;
     color: #222;
     font-weight: 600;
-      padding: 10px 22px;
+    padding: 10px 22px;
 }
 
 .nav-link:hover {
